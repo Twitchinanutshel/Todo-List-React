@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   margin: auto;
-  width: 350px;
+  width: 700px;
   padding-bottom: 50px;
   max-height: 100%;
   border-radius: 10px;
@@ -23,6 +23,17 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.task-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #494459;
+  border-radius: 5px;
+  padding: 10px;
+  width: 600px;
+  margin-bottom: 20px;
 }
 
 h1{
@@ -52,30 +63,27 @@ h1{
   padding-right: 5px;
 }
 
-.task-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #494459;
-  border-radius: 5px;
-  padding: 10px;
-  width: 300px;
-}
+
 
 .delete-move-container{
   margin-left: 50px;
 }
 
-.task{
-  flex-grow: 1; 
-  margin-right: 7px;
-  margin-left: 7px;
+.task-date-checkbox-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
 }
 
 .task-date-container{
   display: flex;
   flex-direction: column;
   align-items: start;
+}
+
+.task{
+  margin-right: 7px;
+  margin-left: 7px;
 }
 
 .date{
